@@ -1,0 +1,25 @@
+$button-color: #68b738;
+$button-hover: #5eaa2f;
+
+.button {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  background-color: $button-color;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main-nav__btn {
+  background-image: url("/img/icon-mobile-menu.svg");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border: none;
+  background-color: #ffffff;
+}

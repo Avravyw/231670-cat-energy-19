@@ -2,21 +2,19 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
   </head>
   <body>
 
     <header class="header">
       <div class="header__logo">
-        <img class="header__logo-image" src="img/logocat.svg">
-      </div>
-
-      <div class="header__logo-text">
-        <img class="header__logo-image" src="img/logotext.svg">
+        <img class="header__logo-image" src="img/logo-mobile.svg">
       </div>
 
       <nav class="main-nav">
-        <button type="button" class="main-nav__btn">кнопка бургера</button>
+        <button type="button" class="main-nav__btn"></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
@@ -42,30 +40,30 @@
           <form class="form">
             <fieldset class="form__fieldset">
               <legend></legend>
-              <ul class="form__list" role="none">
-                <li class="form__item">
+              <ul class="form__list input" role="none">
+                <li class="input__item">
                   <label class="form__label" for="name">Имя:*</label>
                   <input class="form__input" type="text" name="name" id="name">
                 </li>
-                <li class="form__item">
+                <li class="input__item">
                   <label class="form__label" for="weight">Вес (кг):*</label>
                   <input class="form__input" type="text" name="weight" id="weight">
                 </li>
-                <li class="form__item">
+                <li class="input__item">
                   <label class="form__label" for="old">Возраст (лет):*</label>
                   <input class="form__input" type="text" name="old" id="old">
                 </li>
               </ul>
-              <ul>
-                <li class="form__item">
+              <ul class="form__list radio">
+                <li class="radio__item">
                   <input class="form__input" type="radio" checked />
                   <label class="form__label">Похудение</label>
                 </li>
-                <li class="form__item">
+                <li class="radio__item">
                   <input class="form__input" type="radio" />
                   <label class="form__label">Набор массы</label>
                 </li>
-                <li class="form__item">
+                <li class="radio__item">
                   <input class="form__input" type="radio" />
                   <label class="form__label">Не знаю (нужен ваш совет)</label>
                 </li>
@@ -74,12 +72,12 @@
 
             <fieldset class="form__fieldset">
               <legend class="sub-title">Контактные данные (владельца кота)</legend>
-              <ul class="form__list" role="none">
-                <li class="form__item">
+              <ul class="form__list input" role="none">
+                <li class="input__item">
                   <label class="form__label" for="email">E-mail:*</label>
                   <input class="form__input" type="email" name="email" id="email">
                 </li>
-                <li class="form__item">
+                <li class="input__item">
                   <label class="form__label" for="tel">Телефон:*</label>
                   <input class="form__input" type="tel" name="tel" id="tel">
                 </li>
@@ -94,27 +92,27 @@
 
             <fieldset class="form__fieldset">
               <legend class="sub-title">Дополнительно</legend>
-              <ul>
-                <li class="form__item">
+              <ul class="form__list checkbox">
+                <li class="checkbox__item">
                   <input class="form__input" type="checkbox" checked />
                   <label class="form__label">Сахарозаменитель</label>
                 </li>
-                <li class="form__item">
+                <li class="checkbox__item">
                   <input class="form__input" type="checkbox" />
                   <label class="form__label">Питьевая вода</label>
                 </li>
-                <li class="form__item">
+                <li class="checkbox__item">
                   <input class="form__input" type="checkbox" />
                   <label class="form__label">Молоко</label>
                 </li>
-                <li class="form__item">
+                <li class="checkbox__item">
                   <input class="form__input" type="checkbox" />
                   <label class="form__label">Витамины</label>
                 </li>
               </ul>
             </fieldset>
 
-            <button type="submit" class="button main__button">Отправить заявку</button>
+            <button type="submit" class="button form__button">Отправить заявку</button>
 
             <p class="form__little-text">* — Обязательные поля</p>
           </form>
@@ -138,23 +136,22 @@
 
     <footer class="footer">
       <div class="footer__logo-text">
-        <img class="footer__logo-image" src="img/logotext.svg">
+        <img class="footer__logo-image" src="img/logo-footer.svg">
       </div>
-
         <ul class="socials footer__socials">
           <li class="socials__item">
             <a class="socials__link" href="">
-              <img class="socials__img" src="https://via.placeholder.com/150x150" />
+              <img class="socials__img" src="img/icon-vk.svg" />
             </a>
           </li>
           <li class="socials__item">
             <a class="socials__link" href="">
-              <img class="socials__img" src="https://via.placeholder.com/150x150" />
+              <img class="socials__img" src="img/icon-insta.svg" />
             </a>
           </li>
           <li class="socials__item">
             <a class="socials__link" href="">
-              <img class="socials__img" src="https://via.placeholder.com/150x150" />
+              <img class="socials__img" src="img/icon-fb.svg" />
             </a>
           </li>
         </ul>
